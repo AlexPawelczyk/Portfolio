@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rambla:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-border: #ffffff34;
+  --font-staat: 'Staatliches', cursive;
+  --font-os: 'Oswald', sans-serif;
+  --font-ram: 'Rambla', sans-serif;
+}
+
+#portfolio {
+  font-size: 40px;
+}
+
+/* Global Classes */
+.bgcolor-black {
+  background-color: var(--color-black);
+}
+
+.font-os {
+  font: normal 300 18px var(--font-os);
+}
+
+.font-ram {
+  font: normal bold 18px var(--font-ram);
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-27 {
+  font-size: 27px;
+}
+
+.font-size-34 {
+  font-size: 34px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.font-staat {
+  font: normal 400 18px var(--font-staat);
+}
+
+/* #Global Classes */
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  transition: left .5s ease;
+}
+
+#header nav {
+  height: 100vh;
+}
+
+#header .site-title .navbar-brand {
+  letter-spacing: 2px;
+  color: var(--color-white);
+}
+
+#header .nav-link {
+  margin: .7rem 1rem;
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+}
+
+#header .nav-link:hover {
+  color:var(--color-white) !important;
+}
+
+#header .toggle-button {
+  background: none;
+  color: var(--color-black);
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  border: 1px solid var(--color-border);
+}
