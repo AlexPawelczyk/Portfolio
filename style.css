@@ -64,7 +64,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   transition: left .5s ease;
 }
 
@@ -103,10 +103,10 @@ body {
 
 /* site-main */
 .site-banner .banner-area {
-  background: url(./assets/Banner_image.jpg) no-repeat;
+  background: url(./assets/banner_img2.jpg) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   position: relative;
 }
 
@@ -116,7 +116,7 @@ body {
   top: 45%;
   left: 50%;
   /* centering text and image */
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -27%);
 }
 
 .site-banner .banner-area .author .author-img {
@@ -124,8 +124,8 @@ body {
   height: 200px;
   border-radius: 50%;
   margin: auto;
-  background: url(./assets/about.jpg) no-repeat;
-  background-size: 200%;
+  background: url(./assets/alex.PNG) no-repeat;
+  background-size: 100%;
   background-position: 40% 0;
 }
 
