@@ -31,6 +31,10 @@ body {
   font: normal bold 18px var(--font-ram);
 }
 
+.font-staat {
+  font: normal 400 18px var(--font-staat);
+}
+
 .font-size-16 {
   font-size: 16px;
 }
@@ -51,9 +55,7 @@ body {
   font-size: 40px;
 }
 
-.font-staat {
-  font: normal 400 18px var(--font-staat);
-}
+
 
 /* #Global Classes */
 
@@ -93,3 +95,43 @@ body {
   right: 20px;
   border: 1px solid var(--color-border);
 }
+
+.toggle-left {
+  left: 0 !important;
+  width: 1000px !important;
+}
+
+/* site-main */
+.site-banner .banner-area {
+  background: url(./assets/Banner_image.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.site-banner .banner-area .author {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  /* centering text and image */
+  transform: translate(-50%, -50%);
+}
+
+.site-banner .banner-area .author .author-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background: url(./assets/about.jpg) no-repeat;
+  background-size: 200%;
+  background-position: 40% 0;
+}
+
+
+
+
+
+
+/* #site-main */

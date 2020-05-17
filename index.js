@@ -10,10 +10,10 @@ $(document).ready(function(e) {
     toggle_onclick($win, $navbar, width);
   });
 
-
-  //36:40
-
-
+  // click on toggle (hamburger) button
+  $toggle.click(function(e) {
+    $navbar.toggleClass("toggle-left");
+  });
 });
 
 function toggle_onclick($win, $navbar, $width) {
@@ -23,3 +23,11 @@ function toggle_onclick($win, $navbar, $width) {
     $navbar.css({left: "0px"});
   }
 }
+
+var options = {
+  strings: ['Welcome to my portfolio!'],
+  typeSpeed: 40,
+  backSpeed: 50 /*,
+  loop: true */
+}
+var typed = new Typed("#typed", options);
