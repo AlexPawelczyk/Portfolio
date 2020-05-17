@@ -31,3 +31,11 @@ var options = {
   loop: true */
 }
 var typed = new Typed("#typed", options);
+
+var options_2 = {
+  strings: ['I am a computer science enthusiast!'],
+  typeSpeed: 40,
+  backSpeed: 50 /*,
+  loop: true */
+}
+var typed_2 = new Typed("#typed_2", options_2);
