@@ -3,491 +3,550 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pawelczyk Portfolio</title>
+  <title>V2 - Pawelczyk Portfolio</title>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
   <!-- header area -->
   <header id="header">
-    <div class="row m-0">
-      <div class="col-3 bgcolor-black"> 
-        <nav class="primary-nav navbar-expand-md">
-          <div class="site-title text-center text-light py-5">
-            <a href="#" class="navbar-brand font-staat font-size-40">Portfolio</a>
-            <p class="description text-uppercase font-os font-size-16">Alex Pawelczyk</p>
-          </div>
+  <div class="row m-0">
+    <div class="col-3 bgcolor-black"> 
+      <nav class="primary-nav navbar-expand-md">
+        <div class="site-title text-center text-light py-5">
+          <a href="#" class="navbar-brand font-staat font-size-40">Portfolio</a>
+          <p class="description text-uppercase font-os font-size-16">Alex Pawelczyk</p>
+        </div>
 
-          <div class="d-flex flex-column"></div>
-          <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
-          <a href="#about" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
-          <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
-          <a href="#services" class="nav-item nav-link text-white-50 font-os font-size-16 active">Services</a>
-          <a href="#references" class="nav-item nav-link text-white-50 font-os font-size-16 active">References</a>
-          <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">Projects</a>
-          <a href="#news" class="nav-item nav-link text-white-50 font-os font-size-16 active">News</a>
-          <a href="#contact" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact</a>
+        <div class="d-flex flex-column"></div>
+        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+        <a href="#about" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+        <a href="#skills" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
+        <a href="#services" class="nav-item nav-link text-white-50 font-os font-size-16 active">Services</a>
+        <a href="#projects" class="nav-item nav-link text-white-50 font-os font-size-16 active">Projects</a>
+        <a href="#news" class="nav-item nav-link text-white-50 font-os font-size-16 active">News</a>
+        <a href="#references" class="nav-item nav-link text-white-50 font-os font-size-16 active">References</a>
+        <a href="#contact" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact</a>
 
-        </nav>
-      </div>
+      </nav>
     </div>
-    <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
-    <div class="social">
-      <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
-      <span class="mr-3"><i class="fab fa-twitter"></i></span>
-      <span class="mr-3"><i class="fab fa-instagram"></i></span>
-      <span class="mr-3"><i class="fab fa-youtube"></i></span>
-    </div>
+  </div>
+  <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+  <div class="social">
+    <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+    <span class="mr-3"><i class="fab fa-twitter"></i></span>
+    <span class="mr-3"><i class="fab fa-instagram"></i></span>
+    <span class="mr-3"><i class="fab fa-youtube"></i></span>
+  </div>
   </header>
   <!-- #header area -->
+    
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
 
-  <!-- main area-->
-  <main id="site-main">
-    <div class="row m-0">
-      <!--9 column spaces to span whole page (header has 3 column spaces)-->
-      <div class="col-md-9 offset-md-3 px-0">
+                <!-- site banner area -->
+                <section class="site-banner" id="home">
+                    <div class="banner-area">
+                    <div class="author text-center">
+                        <div class="author-img"></div>
+                        <h1 class="text-white font-staat font-size-40 text-uppercase pt-3">Alex Pawelczyk</h1>
+                        <h5 class="text-white font-ram font-size-27"><span id="typed"></span></h5>
+                    </div>
+                    </div>
+                </section>
+                <!-- #site banner area -->
 
-        <!-- site banner area -->
-        <section class="site-banner" id="home">
-          <div class="banner-area">
-            <div class="author text-center">
-              <div class="author-img"></div>
-              <h1 class="text-white font-staat font-size-40 text-uppercase pt-3">Alex Pawelczyk</h1>
-              <h5 class="text-white font-ram font-size-27"><span id="typed"></span></h5>
-            </div>
-          </div>
-        </section>
-        <!-- #site banner area -->
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about">
+                    <div class="me py-5">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">Information</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">About me</h1>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                        <img src="./assets/alex.PNG" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                        <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                        <h5 class="font-ram font-size-20 py-2"><span id="typed_2"></span></h5>
+                        <p class="font-ram text-black-50 py-2">
+                            My name is Alex Pawelczyk and I am a current graduate student at
+                            the University of Waterloo's David R. Cheriton School of Computer
+                            Science. My passion for computer science began in high school
+                            and has continued to grow throughout my university career. Hockey
+                            has also played a major role in my life, and I've been fortunate
+                            to play the game I love for over 20 years. I was fortunate to receive
+                            athletic scholarships at Dalhousie University and
+                            the University of Waterloo to play on the varsity hockey teams
+                            and pursue my education. I learned a lot of valuable lessons as a student-athlete,
+                            and I am forever thankful for the chance I was given to pursue my passions
+                            of computer science and hockey.
+                            
+                        </p>
+                        <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                            <div class="d-flex flex-column">
+                            <p class="font-ram"><b>Date of Birth: <span class="text-black-50">September 21, 1995</span></b></p>
+                            <p class="font-ram"><b>Master of Computer Science: <span class="text-black-50">University of Waterloo (2019 - present)</span></b></p>
+                            <p class="font-ram"><b>Bachelor of Computer Science: <span class="text-black-50">Dalhousie University (2016 - 2019)</span></b></p>
+                            
+                            </div>
+                            <div class="d-flex flex-column">
+                            <p class="font-ram"><b>Email: <span class="text-black-50">alex.pawelczyk@uwaterloo.ca</span></b></p>
+                            <p class="font-ram"><b>Github: <span class="text-black-50">https://github.com/AlexPawelczyk</span></b></p>
+                            <p class="font-ram"><b>Linkedin: <span class="text-black-50">+1 586-344-2563</span></b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-dark text-uppercase mr-3">Hire Me</button>
+                        <button class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
 
-        <!-- about me area -->
-        <section class="about px-4 my-5" id="about">
-          <div class="me py-5">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">Information</h5>
-            <h1 class="text-uppercase font-staat font-size-34">About me</h1>
-            <div class="row m-0">
-              <div class="col-sm-5 pl-0">
-                <img src="./assets/alex.PNG" alt="profile image" class="img-fluid">
-              </div>
-              <div class="col-sm-6">
-                <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
-                <h5 class="font-ram font-size-20 py-2"><span id="typed_2"></span></h5>
-                <p class="font-ram text-black-50 py-2">
-                  My name is Alex Pawelczyk and I am a current graduate student at
-                  the University of Waterloo's David R. Cheriton School of Computer
-                  Science. My passion for computer science began in high school
-                  and has continued to grow throughout my university career. Hockey
-                  has also played a major role in my life, and I've been fortunate
-                  to play the game I love for over 20 years. I was fortunate to receive
-                  athletic scholarships at Dalhousie University and
-                  the University of Waterloo to play on the varsity hockey teams
-                  and pursue my education. I learned a lot of valuable lessons as a student-athlete,
-                  and I am forever thankful for the chance I was given to pursue my passions
-                  of computer science and hockey.
-                  
-                </p>
-                <div class="d-flex flex-row flex-wrap justify-content-between py-4">
-                  <div class="d-flex flex-column">
-                    <p class="font-ram"><b>Date of Birth: <span class="text-black-50">September 21, 1995</span></b></p>
-                    <p class="font-ram"><b>Master of Computer Science: <span class="text-black-50">University of Waterloo (2019 - present)</span></b></p>
-                    <p class="font-ram"><b>Bachelor of Computer Science: <span class="text-black-50">Dalhousie University (2016 - 2019)</span></b></p>
+                <!-- skills area -->
+                <section class="skill px-4 py-5 bg-light" id="skills">
+                    <div class="ability py-3">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">Skills</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">My Skills</h1>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-6 pl-4">
+                        <p class="font-ram font-size-16 text-black-50 pb-3">
+                        My main skill is software development using the Java programming language.
+                        I have a strong understanding of object-oriented programming concepts, data structures,
+                        algorithms, software design patterns, and software architecture. Web development is another
+                        one of my skills, and I am proficient in HTML/CSS/JavaScript/Bootstrap. I've also had a lot of experience
+                        developing Andorid apps with Android Studio, and I know how to integrate different apps with the Google Firestore 
+                        cloud database. Other technical skills include data visualization with D3.js, using machine learning libraries
+                        to develop various kinds of models, and a solid understanding of C, C++, Python, and SQL.
+                        </p>
+                        
+                        <p class="font-ram font-size-16 text-black-50">
+                        Along with various technical skills, I possess many of the interpersonal skills that are needed
+                        to be successful in the business world. Communication is an essential component to the success
+                        of any team, and I am comfortable with speaking to groups of people of any size. Athletics have 
+                        instilled a strong work-ethic into me, and I plan to carry this work-ethic over into the business world.
+                        Leading by example has allowed me to thrive in the various leadership positions that I have been placed in throughout my life, 
+                        and this a leadership style that I will continue in my professional career. I also possess strong writing skills,
+                        a passion for learning new technologies, and a drive to do any task that I am assigned with to the best of my ability. 
+                        </p>
+                    </div>
+                    <div class="col-sm-6 bars">
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Java</p>
+                            <span class="font-ram font-size-16">90%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:90%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">HTML/CSS/JavaScript/Bootstrap</p>
+                            <span class="font-ram font-size-16">80%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:80%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Android Mobile App Development</p>
+                            <span class="font-ram font-size-16">75%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:75%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Data Visualization (D3.js)</p>
+                            <span class="font-ram font-size-16">75%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:75%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">C/C++</p>
+                            <span class="font-ram font-size-16">70%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:70%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">MySQL</p>
+                            <span class="font-ram font-size-16">70%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:70%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Python</p>
+                            <span class="font-ram font-size-16">65%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:65%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Writing/Communication</p>
+                            <span class="font-ram font-size-16">95%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:95%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Leadership</p>
+                            <span class="font-ram font-size-16">95%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:95%"></div>
+                        </div>
+                        </div>
+                        <div class="bar-1 mb-4">
+                        <div class="d-flex flex-row justify-content-between">
+                            <p class="font-ram font-size-16">Work Ethic</p>
+                            <span class="font-ram font-size-16">100%</span>
+                        </div>
+                        <div class="progress" style="height:3px;">
+                            <div class="progress-bar bgcolor-black" role="progressbar" style="width:100%"></div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- #skills area -->
+
+                <!-- services area -->
+                <section class="services-area px-4 py-5" id="services">
+                    <div class="do py-5">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">What I Do</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">Services</h1>
+                    </div>
                     
-                  </div>
-                  <div class="d-flex flex-column">
-                    <p class="font-ram"><b>Email: <span class="text-black-50">alex.pawelczyk@uwaterloo.ca</span></b></p>
-                    <p class="font-ram"><b>Github: <span class="text-black-50">https://github.com/AlexPawelczyk</span></b></p>
-                    <p class="font-ram"><b>Linkedin: <span class="text-black-50">+1 586-344-2563</span></b></p>
-                  </div>
-                </div>
-                <button class="btn btn-dark text-uppercase mr-3">Hire Me</button>
-                <button class="btn btn-dark text-uppercase mr-3">Download CV</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- #about me area -->
-
-
-        <!-- skills area -->
-        <section class="skill px-4 py-5 bg-light" id="skills">
-          <div class="ability py-3">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">Skills</h5>
-            <h1 class="text-uppercase font-staat font-size-34">My Skills</h1>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 pl-4">
-              <p class="font-ram font-size-16 text-black-50 pb-3">
-                My main skill is software development using the Java programming language.
-                I have a strong understanding of object-oriented programming concepts, data structures,
-                algorithms, software design patterns, and software architecture. Web development is another
-                one of my skills, and I am proficient in HTML/CSS/JavaScript/Bootstrap. I've also had a lot of experience
-                developing Andorid apps with Android Studio, and I know how to integrate different apps with the Google Firestore 
-                cloud database. Other technical skills include data visualization with D3.js, using machine learning libraries
-                to develop various kinds of models, and a solid understanding of C, C++, Python, and SQL.
-              </p>
-              
-              <p class="font-ram font-size-16 text-black-50">
-                Along with various technical skills, I possess many of the interpersonal skills that are needed
-                to be successful in the business world. Communication is an essential component to the success
-                of any team, and I am comfortable with speaking to groups of people of any size. Athletics have 
-                instilled a strong work-ethic into me, and I plan to carry this work-ethic over into the business world.
-                Leading by example has allowed me to thrive in the various leadership positions that I have been placed in throughout my life, 
-                and this a leadership style that I will continue in my professional career. I also possess strong writing skills,
-                a passion for learning new technologies, and a drive to do any task that I am assigned with to the best of my ability. 
-              </p>
-            </div>
-            <div class="col-sm-6 bars">
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Java</p>
-                  <span class="font-ram font-size-16">90%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:90%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">HTML/CSS/JavaScript/Bootstrap</p>
-                  <span class="font-ram font-size-16">80%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:80%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Android Mobile App Development</p>
-                  <span class="font-ram font-size-16">75%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:75%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Data Visualization (D3.js)</p>
-                  <span class="font-ram font-size-16">75%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:75%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">C</p>
-                  <span class="font-ram font-size-16">70%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:70%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">C++</p>
-                  <span class="font-ram font-size-16">70%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:70%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">MySQL</p>
-                  <span class="font-ram font-size-16">70%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:70%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Python</p>
-                  <span class="font-ram font-size-16">65%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:65%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Writing/Communication</p>
-                  <span class="font-ram font-size-16">95%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:95%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Leadership</p>
-                  <span class="font-ram font-size-16">95%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:95%"></div>
-                </div>
-              </div>
-              <div class="bar-1 mb-4">
-                <div class="d-flex flex-row justify-content-between">
-                  <p class="font-ram font-size-16">Work Ethic</p>
-                  <span class="font-ram font-size-16">100%</span>
-                </div>
-                <div class="progress" style="height:3px;">
-                  <div class="progress-bar bgcolor-black" role="progressbar" style="width:100%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- #skills area -->
-
-        <!-- services area -->
-        <section class="services-area px-4 py-5" id="services">
-          <div class="do py-5">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">What I Do</h5>
-            <h1 class="text-uppercase font-staat font-size-34">Services</h1>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="far fa-lightbulb fa-3x"></i></span>
-                <h4 class="font-ram py-4">Software Development</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Solving complex, real-world problems with the powers of technology.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="fas fa-laptop fa-3x"></i></span>
-                <h4 class="font-ram py-4">Web Design</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Making beautiful, responsive websites for any service or company.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="fab fa-android fa-3x"></i></span>
-                <h4 class="font-ram py-4">Android Development</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Developing useful and secure apps for Android mobile devices.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="fas fa-cogs fa-3x"></i></span>
-                <h4 class="font-ram py-4">Micro Services</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Basic understanding of micro services that are used in industrial computing applications.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x"></i></span>
-                <h4 class="font-ram py-4">Data Visualization</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Converting raw data into meaningful and visually-appealing representations of information.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
-              <div class="panel border p-4">
-                <span class="icon text-secondary"><i class="fas fa-robot fa-3x"></i></span>
-                <h4 class="font-ram py-4">Machine Learning</h4>
-                <p class="font-ram font-size-16 text-black-50">
-                  Leveraging machine learning libraries to create powerful models for solving real-word problems.
-                </p>
-              </div>
-            </div> 
-          </div>
-        </section>
-        <!-- #services area -->
-
-        <!-- references area -->
-        <section class="reference bg-light py-5 px-4" id="references">
-          <div class="refer py-3">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">References</h5>
-            <h1 class="text-uppercase font-staat font-size-34">My References</h1>
-          </div>
-          <div class="row mb-5">
-            <div class="col-sm-4 my-3">
-              <img src="./assets/reffer/refer_1.jpg" alt="reference1" class="img-fluid">
-            </div>
-            <div class="col-sm-4 my-3">
-              <img src="./assets/reffer/refer_2.jpg" alt="reference2" class="img-fluid">
-            </div>
-            <div class="col-sm-4 my-3">
-              <img src="./assets/reffer/refer_3.jpg" alt="reference3" class="img-fluid">
-            </div>
-          </div>
-        </section>
-        <!-- #references area -->
-
-        <!-- personal projects area -->
-        <section class="work py-5 px-4" id="projects">
-          <div class="py-3">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">Projects</h5>
-            <h1 class="text-uppercase font-staat font-size-34">My Personal Projects</h1>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/01.jpg" alt="project1" class="img-fluid">
-            </div>
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/02.jpg" alt="project2" class="img-fluid">
-            </div>
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/03.jpg" alt="project3" class="img-fluid">
-            </div>
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/04.jpg" alt="project4" class="img-fluid">
-            </div>
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/05.jpg" alt="project5" class="img-fluid">
-            </div>
-            <div class="col-sm-4 pb-4">
-              <img src="./assets/work/06.jpg" alt="project6" class="img-fluid">
-            </div>
-          </div>
-        </section>
-        <!-- #personal projects area -->
-
-        <!-- news area -->
-        <section class="news py-5 px-4 bg-light" id="news">
-          <div class="py-3">
-            <h5 class="text-uppercase font-os font-size-16 text-muted">Read</h5>
-            <h1 class="text-uppercase font-staat font-size-34">Latest News</h1>
-          </div>
-          <div class="row">
-            <div class="col-sm-4 my-3">
-              <div class="card border-0">
-                <img src="./assets/news/01.jpg" alt="news1" class="card-img-top">
-                <div class="card-body">
-                  <p class="font-ram font-size-16 text-black-50">
-                    in <b class="text-uppercase text-dark">lifestyle</b>
-                  </p>
-                  <h5 class="card-title font-ram">Responsive Design</h5>
-                  <p class="card-text text-black-50">
-                    Lore ipsum demo text i dont know what im writing right now
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 my-3">
-              <div class="card border-0">
-                <img src="./assets/news/02.jpg" alt="news2" class="card-img-top">
-                <div class="card-body">
-                  <p class="font-ram font-size-16 text-black-50">
-                    in <b class="text-uppercase text-dark">lifestyle</b>
-                  </p>
-                  <h5 class="card-title font-ram">Bootstrap Framework</h5>
-                  <p class="card-text text-black-50">
-                    Lore ipsum demo text i dont know what im writing right now
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 my-3">
-              <div class="card border-0">
-                <img src="./assets/news/03.jpg" alt="news3" class="card-img-top">
-                <div class="card-body">
-                  <p class="font-ram font-size-16 text-black-50">
-                    in <b class="text-uppercase text-dark">sports</b>
-                  </p>
-                  <h5 class="card-title font-ram">Hockey</h5>
-                  <p class="card-text text-black-50">
-                    Lore ipsum demo text i dont know what im writing right now
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- #news area -->
-
-        <!-- footer area -->
-        <footer id="footer" class="pt-5 px-3">
-          <div id="contact">
-            <div class="py-3 px-2">
-              <h5 class="text-uppercase font-os font-size-16 text-muted">Location</h5>
-              <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
-            </div>
-            <div class="row py-5">
-              <div class="col-sm-6">
-                <h6 class="text-uppercase font-ram font-size-16 text-dark">Alex Pawelczyk</h6>
-                <p class="font-ram w-51 font-size-16 text-black-50">
-                  Lore ipsum demo text i dont know what im writing right now
-                </p>
-                <p class="font-ram font-size-16 text-black-50 pt-3">
-                  PHONE: +1 586-344-2563
-                </p>
-                <p class="font-ram font-size-16 text-black-50">
-                  EMAIL: alex.pawelczyk@uwaterloo.ca
-                </p>
-                <p class="font-ram font-size-16 text-black-50">
-                  ADDRESS: 44314 Saturn Dr.<br> 
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  Sterling Heights, MI, 48314
-                </p>
-              </div>
-              <div class="col-sm-6 py-0 px-4">
-                <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
-                <form action="" class="py-3">
-                  <div class="row">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Name">
+                    <div class="row">
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="far fa-lightbulb fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Software Development</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Using critical thinking and problem solving skills to solving complex, 
+                            real-world problems and produce high quality software solutions.
+                        </p>
+                        </div>
                     </div>
-                    <div class="col">
-                      <input type="email" class="form-control" placeholder="Email">
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="fas fa-laptop fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Web Design</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Making beautiful and responsive websites for any service or company.
+                        </p>
+                        </div>
                     </div>
-                  </div>
-                  <textarea name="" id="" cols="30" rows="3" class="form-control my-4" placeholder="Message"></textarea>
-                  <button type="submit" class="btn btn-dark">Say Hello!</button>
-                </form>
-              </div>
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="fab fa-android fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Android Development</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Developing useful and secure apps for Android mobile devices.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="fas fa-cogs fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Micro Services</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Basic understanding of micro services that are used in industrial computing applications.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Data Visualization</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Converting raw data into meaningful and visually-appealing representations of information.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 text-center">
+                        <div class="panel border p-4">
+                        <span class="icon text-secondary"><i class="fas fa-robot fa-3x"></i></span>
+                        <h4 class="font-ram py-4">Machine Learning</h4>
+                        <p class="font-ram font-size-16 text-black-50">
+                            Leveraging machine learning libraries to create powerful models for solving real-word problems.
+                        </p>
+                        </div>
+                    </div> 
+                    </div>
+                </section>
+                <!-- #services area -->
+
+                <!-- personal projects area -->
+                <section class="work py-5 px-4 bg-light" id="projects">
+                    <div class="py-3">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">Projects</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">My Personal Projects</h1>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/01.jpg" alt="project1" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Data Viz/Web Dev</b>
+                        </p>
+                        <h5 class="card-title font-ram">PuckSmart</h5>
+                        <p class="card-text text-black-50">
+                            A popular trend among professional sports organizations is the adoption and integration of sports analytics into daily
+                            team operations. When properly applied, sports analytics can improve the decision making process of a team, and combining these
+                            statistical methodologies with dynamic visualizations can help analysts gain comprehensive insights into games.
+                            This work presents PuckSmart: a Web interface for visualizing spatiotemporal data and analytics of ice hockey
+                            games. PuckSmart converts spatiotemporal game data and analytics into meaningful visualizations of information, and the initial
+                            prototype features two different views of data. One view provides a visual summary of the key events of a hockey game, while the other
+                            view presents a novel spatiotemporal design for simulating games and dynamically visualizing their key events and analytics metrics.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/02.jpg" alt="project2" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Machine Learning</b>
+                        </p>
+                        <h5 class="card-title font-ram">Sentiment Analysis: Tweets &amp; IMDB Movie Reviews</h5>
+                        <p class="card-text text-black-50">
+                            Sentiment analysis is an important task of natural language
+                            processing (NLP) that aims to assign quantitative sentiment
+                            values to documents of text. This research uses the Python
+                            scikit-learn library to implement and analyze the effectiveness
+                            of Multinomial Naive Bayes (MNB), Support Vector Machines
+                            (SVM), and Logistic Regression (LR) text classifiers.
+                            The goal is to determine which of the three models is most
+                            effective at classifying text sentiment (positive or negative).
+                            Two experiments are conducted to test each model using
+                            two real-world datasets (tweets and IMDB movie reviews). 
+                            Precision, recall, and F-measure is calculated for each model, 
+                            and the results show that SVM had the highest effectiveness scores 
+                            for both datasets. Moreover, the MNB, SVM, and LR models achieve higher scores
+                            when classifying sentiment in movie reviews, as opposed to tweets.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/03.jpg" alt="project3" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Data Viz/Web Dev/Machine Learning</b>
+                        </p>
+                        <h5 class="card-title font-ram">COMPASS Vision</h5>
+                        <p class="card-text text-black-50">
+                            
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/04.jpg" alt="project4" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Video Game Dev</b>
+                        </p>
+                        <h5 class="card-title font-ram">AsteroidsJS</h5>
+                        <p class="card-text text-black-50">
+                            
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/05.jpg" alt="project5" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Video Game Dev</b>
+                        </p>
+                        <h5 class="card-title font-ram">Java Tile Game</h5>
+                        <p class="card-text text-black-50">
+                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pb-4">
+                        <img src="./assets/work/06.jpg" alt="project6" class="img-fluid">
+                        <div class="card-body">
+                        <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">Video Game Dev</b>
+                        </p>
+                        <h5 class="card-title font-ram">Checkers++</h5>
+                        <p class="card-text text-black-50">
+                            
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- #personal projects area -->
+
+                <!-- news area -->
+                <section class="news py-5 px-4" id="news">
+                    <div class="py-3">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">Read</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">Latest News</h1>
+                    </div>
+                    <div class="row">
+                    <div class="col-sm-4 my-3">
+                        <div class="card border-0">
+                        <img src="./assets/news/01.jpg" alt="news1" class="card-img-top">
+                        <div class="card-body">
+                            <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">lifestyle</b>
+                            </p>
+                            <h5 class="card-title font-ram">Responsive Design</h5>
+                            <p class="card-text text-black-50">
+                            Lore ipsum demo text i dont know what im writing right now
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-3">
+                        <div class="card border-0">
+                        <img src="./assets/news/02.jpg" alt="news2" class="card-img-top">
+                        <div class="card-body">
+                            <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">lifestyle</b>
+                            </p>
+                            <h5 class="card-title font-ram">Bootstrap Framework</h5>
+                            <p class="card-text text-black-50">
+                            Lore ipsum demo text i dont know what im writing right now
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 my-3">
+                        <div class="card border-0">
+                        <img src="./assets/news/03.jpg" alt="news3" class="card-img-top">
+                        <div class="card-body">
+                            <p class="font-ram font-size-16 text-black-50">
+                            in <b class="text-uppercase text-dark">sports</b>
+                            </p>
+                            <h5 class="card-title font-ram">Hockey</h5>
+                            <p class="card-text text-black-50">
+                            Lore ipsum demo text i dont know what im writing right now
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- #news area -->
+
+                <!-- references area -->
+                <section class="reference bg-light py-5 px-4" id="references">
+                    <div class="refer py-3">
+                    <h5 class="text-uppercase font-os font-size-16 text-muted">References</h5>
+                    <h1 class="text-uppercase font-staat font-size-34">My References</h1>
+                    </div>
+                    <div class="row mb-5">
+                    <div class="col-sm-4 my-3">
+                        <img src="./assets/reffer/refer_1.jpg" alt="reference1" class="img-fluid">
+                    </div>
+                    <div class="col-sm-4 my-3">
+                        <img src="./assets/reffer/refer_2.jpg" alt="reference2" class="img-fluid">
+                    </div>
+                    <div class="col-sm-4 my-3">
+                        <img src="./assets/reffer/refer_3.jpg" alt="reference3" class="img-fluid">
+                    </div>
+                    </div>
+                </section>
+                <!-- #references area -->
+
+                <!-- footer area -->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact">
+                    <div class="py-3 px-2">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Location</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                    </div>
+                    <div class="row py-5">
+                        <div class="col-sm-6">
+                        <h6 class="text-uppercase font-ram font-size-16 text-dark">Alex Pawelczyk</h6>
+                        <p class="font-ram w-51 font-size-16 text-black-50">
+                            Lore ipsum demo text i dont know what im writing right now
+                        </p>
+                        <p class="font-ram font-size-16 text-black-50 pt-3">
+                            PHONE: +1 586-344-2563
+                        </p>
+                        <p class="font-ram font-size-16 text-black-50">
+                            EMAIL: alex.pawelczyk@uwaterloo.ca
+                        </p>
+                        <p class="font-ram font-size-16 text-black-50">
+                            ADDRESS: 44314 Saturn Dr.<br> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Sterling Heights, MI, 48314
+                        </p>
+                        </div>
+                        <div class="col-sm-6 py-0 px-4">
+                        <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                        <form action="" class="py-3">
+                            <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            </div>
+                            <textarea name="" id="" cols="30" rows="3" class="form-control my-4" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn-dark">Say Hello!</button>
+                        </form>
+                        </div>
+                    </div>
+                    <div class="row bg-light py-5">
+                        <div class="col-sm-4 my-5 text-center">
+                        <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Alex Pawelczyk<br>All rights reserved</h6>
+                        </div>
+                        <div class="col-sm-4 my-4 text-center">
+                            <div class="footer-title">
+                            <a href="#" class="navbar-brand font-staat font-size-40 text-dark">Alex Pawelczyk</a>
+                            <p class="description font-os font-size-16 text-black-50 text-uppercase">David R. Cheriton School of Computer Science <br>University of Waterloo</p>
+        
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-5 text-center">
+                        <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+                        <span class="mr-3"><i class="fab fa-twitter"></i></span>
+                        <span class="mr-3"><i class="fab fa-instagram"></i></span>
+                        <span class="mr-3"><i class="fab fa-youtube"></i></span>
+                        </div>
+                    </div>
+                    </div>
+                </footer>
+                <!-- #footer area -->
+
             </div>
-            <div class="row bg-light py-5">
-              <div class="col-sm-4 my-5 text-center">
-                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Alex Pawelczyk<br>All rights reserved</h6>
-              </div>
-              <div class="col-sm-4 my-4 text-center">
-                  <div class="footer-title">
-                    <a href="#" class="navbar-brand font-staat font-size-40 text-dark">Alex Pawelczyk</a>
-                    <p class="description font-os font-size-16 text-black-50 text-uppercase">David R. Cheriton School of Computer Science <br>University of Waterloo</p>
+        </div>
+    </main>
 
-                  </div>
-              </div>
-              <div class="col-sm-4 my-5 text-center">
-                <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
-                <span class="mr-3"><i class="fab fa-twitter"></i></span>
-                <span class="mr-3"><i class="fab fa-instagram"></i></span>
-                <span class="mr-3"><i class="fab fa-youtube"></i></span>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <!-- #footer area -->
-      </div>
-    </div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
 
-  <!-- #main area-->
+<script src="./vendor/typed/typed.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-  <script src="./vendor/typed/typed.min.js"></script>
-  <script src="./index.js"></script>
+<script src="./index.js"></script>
 </body>
-
 </html>
