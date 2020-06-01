@@ -26,18 +26,19 @@ function toggle_onclick($win, $navbar, width){
 
 var typed = new Typed('#typed' , {
   strings: [
-      'Web Developer',
-      'Freelancer'
+      'Welcome to my portfolio!'
   ],
   typeSpeed: 50,
   backSpeed: 50,
-  loop: true
+  loop: false
 });
 
 var typed_2 = new Typed('#typed_2' , {
   strings: [
-      'Web Developer',
-      'Freelancer'
+      'am a current graduate student.',
+      'have a passion for computer science.',
+      'enjoy learning new skills and technologies.',
+      'am ready to make a difference at your company!'
   ],
   typeSpeed: 50,
   backSpeed: 50,
