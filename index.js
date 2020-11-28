@@ -26,12 +26,11 @@ function toggle_onclick($win, $navbar, width){
 
 var typed = new Typed('#typed' , {
   strings: [
-      'Welcome to my portfolio!',
-      'Please note that this portfolio is still under development.'
+      'Welcome to my portfolio!'
   ],
-  typeSpeed: 45,
+  typeSpeed: 25,
   backSpeed: 45,
-  loop: true
+  loop: false
 });
 
 var typed_2 = new Typed('#typed_2' , {
@@ -41,8 +40,8 @@ var typed_2 = new Typed('#typed_2' , {
       'enjoy learning new skills and technologies.',
       'am ready to make a difference at your company!'
   ],
-  typeSpeed: 45,
-  backSpeed: 45,
+  typeSpeed: 25,
+  backSpeed: 35,
   loop: true
 });
 

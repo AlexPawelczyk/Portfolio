@@ -128,6 +128,21 @@ body{
     line-height: 10px;
 }
 
+#icon-github {
+    color: black;
+}
+
+#icon-github:hover{
+    color: gray;
+}
+
+#icon-linkedin {
+    color: black;
+}
+
+#icon-linkedin:hover{
+    color: gray;
+}
 
 
 #footer form .row .col input[type="text"],
